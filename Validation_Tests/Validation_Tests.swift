@@ -18,8 +18,9 @@ class Validation_Tests: XCTestCase {
     }
 
     override func tearDown() {
-        validationHandler = nil
         super.tearDown()
+        validationHandler = nil
+
     }
 
     func test_ValidateName(){
